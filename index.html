@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<!-- searchbar -->
+		<p class="title">영화 검색 사이트</p>
+		<input type="text" id="searchInput" class="searchbar" placeholder="영화를 검색하세요">
+	</header>
+
+	<!-- modal div -->
+	<div id="movieModal" class="modal">
+		<div class="modalContent">
+			<span class="close">&times;</span>
+			<div class="modalBody">
+				<img id="moviePoster" src="" alt="no image">
+				<h2 id="movieTitle"></h2>
+				<p id="movieOverview"></p>
+				<p id="movieReleaseDate"></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- movieContainer div -->
+	<div id="movieContainer">
+	</div>
+	<script type="module" src="./main.js"></script>
+</body>
+
+</html>
